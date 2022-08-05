@@ -5,7 +5,7 @@
     },
     "exported_at": "2019-03-02T10:17:40+01:00",
     "name": "Node.js",
-    "author": "flgx@protonmail.com",
+    "author": "ggdrishtant@gmail.com",
     "description": "Node.js",
     "image": "quay.io\/pterodactyl\/core:nodejs",
     "startup": "node --max-old-space-size={{SERVER_MEMORY}} {{SCRIPT}} && npm i > \/dev\/null 2>&1",
@@ -18,7 +18,7 @@
     "scripts": {
         "installation": {
             "script": null,
-            "container": "ubuntu:16.04",
+            "container": "debian:10",
             "entrypoint": "bash"
         }
     },
